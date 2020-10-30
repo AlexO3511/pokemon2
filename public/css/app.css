@@ -1,0 +1,70 @@
+body {
+    background-image: url(https://i.imgur.com/d4TP8JM.png) ; 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
+}
+header {
+    background-image: url(https://fontmeme.com/permalink/201021/77eb8b4b3afa7cbf685795bc1313fec5.png);
+    line-height: 140px; 
+    background-repeat: no-repeat;
+   
+    background-position: center;
+}
+.signUp{  
+        width: 382px;  
+        overflow: hidden;  
+        margin: auto;  
+        margin: 20 0 0 450px;  
+        padding: 80px;  
+        background: black;
+        border-radius: 15px ;  
+          
+}  
+h1{  
+    text-align: center;  
+    color: black;  
+    padding: 20px;  
+}  
+label{  
+    color: white;
+    font-size: 17px;  
+}  
+#uname{  
+    width: 300px;  
+    height: 30px;  
+    border: none;  
+    border-radius: 3px;  
+    padding-left: 8px;  
+}  
+#pass{  
+    width: 300px;  
+    height: 30px;  
+    border: none;  
+    border-radius: 3px;  
+    padding-left: 8px;  
+      
+}  
+h3{
+    color: white
+}
+.myPoke{
+    color: white
+}
+.pokeImg{
+    padding: 70px 0;
+    text-align: center;
+    padding: 230px;
+}
+.pokeName{
+    font-size: 40px;
+}
+.pokemon{
+    padding: 70px 0;
+    text-align: center;
+    padding: 230px;
+    list-style-type: none;
+}
+.indexName{
+    font-size: 35px; 
+}

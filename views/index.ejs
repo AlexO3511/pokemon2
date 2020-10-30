@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokemon HomePage</title>
+    <link rel="stylesheet" href="/css/app.css"/>
+</head>
+<body>
+    <h1>Welcome to Pokedox!</h1>
+
+    <ul class = "pokemon">
+        <% for(let i=0; i<pokemons.length; i++) { %>
+            <li>
+                <br/>
+                <div class = "indexName">
+                <a href="/pokemon/<%=pokemons[i].id%>"> 
+                    <%=pokemons[i].name %> 
+                </div>
+                    <br/>
+                    <img src ="<%=pokemons[i].img%>" alt="pokemon">
+                </a>
+            </li>
+            <form action="/pokemon/<%= pokemons[i].id %>?_method=DELETE" method="POST">
+                <input type="submit" value="delete">
+            </form>
+            <a href="/pokemon/<%=pokemons[i] ;%>/edit">Edit</a>
+            <br>
+        <% } %>
+    </ul>
+    <nav>
+        <a href="/pokemon/new">Create a New Pokemon</a>
+    </nav>
+    
+</body>
+</html>
